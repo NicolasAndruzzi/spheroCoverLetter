@@ -40,3 +40,62 @@
 /**********************************************          404 Page End          **********************************************/
 
 /**********************************************          Main Page Begin          **********************************************/
+
+#fullscreenContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: url("/images/moon.jpg") no-repeat left top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-color: black;
+}
+
+#contentContainer {
+  height: 90vh;
+  width: 64vw;
+  /*border: 1px solid white;*/
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 10vh;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  overflow-y: auto;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+#salutation {
+  word-spacing: 5px;
+  /*margin-left: 5vw;*/
+}
+
+#opener {
+  margin-top: 3vh;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 30px;
+  color: #ccc;
+  /*background-color: red;*/
+}
+
+#letter {
+  margin-top: 6vh;
+  line-height: 20px;
+  font-size: 18px;
+}
+
+#letter p {
+  text-indent: 50px;
+}
+
+/**********************************************          Main Page End          **********************************************/
