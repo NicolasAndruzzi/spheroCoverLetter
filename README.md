@@ -1,5 +1,5 @@
 #Sphero Cover Letter
 
-###Deployed Link
+###Deployed Link:
 ----
 https://sphero-hires-nico.herokuapp.com/
