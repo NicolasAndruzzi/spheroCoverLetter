@@ -1,3 +1,42 @@
-* {
-  background-color: green;
+/**********************************************          404 Page Begin          **********************************************/
+
+#errorLink{
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/images/404.jpg");
+  background-size: cover;
+  background-repeat:   no-repeat;
+  background-position: 85% bottom;
+  background-color: #E1EBEC;
 }
+
+#error{
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*background-color: green;*/
+  height: 21vw;
+  margin-top: 15vh;
+}
+
+#errorStatus{
+  color: #F91924;
+  font-size: 15vw;
+  /*background-color: blue;*/
+}
+
+#errorMessage{
+  font-size: 3vw;
+  /*background-color: red;*/
+}
+
+/**********************************************          404 Page End          **********************************************/
+
+/**********************************************          Main Page Begin          **********************************************/
